@@ -1,0 +1,17 @@
+{
+  "name": "j_akhmatfaezov/bracket-checker",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "JAkhmatfaezov\\BracketChecker\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jasur",
+      "email": "jasfayz@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
