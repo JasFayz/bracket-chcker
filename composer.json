@@ -1,5 +1,5 @@
 {
-  "name": "jasfayz/bracket-checker",
+  "name": "jasfayz/bracket-chcker",
   "type": "library",
   "autoload": {
     "psr-4": {
