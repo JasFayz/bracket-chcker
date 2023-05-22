@@ -1,5 +1,5 @@
 {
-  "name": "j_akhmatfaezov/bracket-checker",
+  "name": "jasfayz/bracket-checker",
   "type": "library",
   "autoload": {
     "psr-4": {
@@ -8,7 +8,7 @@
   },
   "authors": [
     {
-      "name": "jasur",
+      "name": "jasfayz",
       "email": "jasfayz@gmail.com"
     }
   ],
