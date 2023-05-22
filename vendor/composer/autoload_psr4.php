@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'JAkhmatfaezov\\BracketChecker\\' => array($baseDir . '/src'),
+    'JasFayz\\BracketChecker\\' => array($baseDir . '/src'),
 );

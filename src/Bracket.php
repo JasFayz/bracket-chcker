@@ -1,6 +1,6 @@
 <?php
 
-namespace JAkhmatfaezov\BracketChecker;
+namespace JasFayz\BracketChecker;
 
 use InvalidArgumentException;
 

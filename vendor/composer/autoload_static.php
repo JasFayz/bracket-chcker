@@ -9,12 +9,12 @@ class ComposerStaticInitaeb628bc324d22396b40d8062d37913a
     public static $prefixLengthsPsr4 = array (
         'J' => 
         array (
-            'JAkhmatfaezov\\BracketChecker\\' => 29,
+            'JasFayz\\BracketChecker\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'JAkhmatfaezov\\BracketChecker\\' => 
+        'JasFayz\\BracketChecker\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
