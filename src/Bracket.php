@@ -35,16 +35,16 @@ class Bracket
     {
 
         $arrayString = str_split($this->string);
-        $result['('] = 0;
-        $result[')'] = 0;
+        $counter = 0;
+
         foreach ($arrayString as $key => $char) {
             if ($char == '(') {
-                $result['('] += 1;
+               $counter++;
             } else {
-                $result[')'] += 1;
+                $counter--;
             }
         }
 
-        return $result['('] == $result[')'];
+        return $counter === 0;
     }
 }
