@@ -6,13 +6,16 @@ use InvalidArgumentException;
 
 class Bracket
 {
-    public function __construct(private string $string)
+    private string $string;
+
+    public function __construct($string)
     {
+        $this->string = $string;
         $this->assertNotEmpty($this->string);
         $this->assertOnlyBracket($this->string);
     }
 
-    public function assertNotEmpty(string $string)
+    private function assertNotEmpty(string $string)
     {
         if ($string === '') {
             throw new InvalidArgumentException('Пустая строка');
@@ -31,15 +34,19 @@ class Bracket
         return $this->string;
     }
 
-    public function checker()
+    public function checker(): bool
     {
 
         $arrayString = str_split($this->string);
         $counter = 0;
 
+        if ($arrayString[0] === ')') {
+            return false;
+        }
+
         foreach ($arrayString as $key => $char) {
             if ($char == '(') {
-               $counter++;
+                $counter++;
             } else {
                 $counter--;
             }
@@ -48,3 +55,4 @@ class Bracket
         return $counter === 0;
     }
 }
+
